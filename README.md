@@ -1,11 +1,15 @@
-# TensorTonic Solutions
+# Bernoulli Probability Mass Function & Moments
+Implement the Bernoulli Probability Mass Function (PMF) and compute the distribution's mean and variance for given inputs.
 
-Welcome to my TensorTonic solutions repository!
+#Bernoulli Distribution:
 
-Here you'll find my solutions to various machine learning and deep learning problems from [TensorTonic](https://tensortonic.com).
+Probability Mass Function:
+    P(X=1)=p, P(X=0)=1−p
+Mean and Variance:
+    mean = p, variance = pq
 
-## What is TensorTonic?
-
-TensorTonic is a platform where you can implement core algorithms of Machine Learning from scratch.
-
-This repository contains my personal solutions to these problems, automatically synchronized from the platform.
+#Example :
+    Input: x=[0, 1, 1], p=0.3
+    Output: pmf=[0.7, 0.3, 0.3], 
+            mean=0.3, 
+            var=0.21
