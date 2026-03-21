@@ -3,10 +3,8 @@ Implement the Bernoulli Probability Mass Function (PMF) and compute the distribu
 
 #Bernoulli Distribution:
 
-Probability Mass Function:
-    P(X=1)=p, P(X=0)=1−p
-Mean and Variance:
-    mean = p, variance = pq
+Probability Mass Function:  P(X=1)=p, P(X=0)=1−p
+Mean and Variance:  mean = p, variance = pq
 
 #Example :
     Input: x=[0, 1, 1], p=0.3
