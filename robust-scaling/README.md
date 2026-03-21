@@ -13,12 +13,12 @@ Formula : Xscaled = (X - median) / IQR
 #When to Use Robust Scaling
 
 Good for:
-Data with known or suspected outliers - 
-Distributions with heavy tails - 
-Real-world measurements prone to errors - 
+Data with known or suspected outliers -- 
+Distributions with heavy tails -- 
+Real-world measurements prone to errors -- 
 When outlier removal is undesirable or infeasible
 
 Less suitable for:
-Clean data without outliers (standard scaling is simpler) - 
-When exact [0, 1] range is required (use min-max) - 
-Very small datasets where percentile estimates are unreliable - 
+Clean data without outliers (standard scaling is simpler) -- 
+When exact [0, 1] range is required (use min-max) -- 
+Very small datasets where percentile estimates are unreliable 
