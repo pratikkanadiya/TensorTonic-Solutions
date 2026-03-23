@@ -6,7 +6,8 @@ Binomial Distribution :
 
 Probability Mass Function :
 
-P(X = k) = nCk * p^k * q ^ n-k
+    P(X = k) = nCk * p^k * q ^ n-k
 
 Cumulative Distribution Function :
-P(X <= k) = sum(0 to k) nCi * p^i * q^n-i
+
+    P(X <= k) = sum(0 to k) nCi * p^i * q^n-i
