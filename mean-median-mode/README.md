@@ -10,7 +10,7 @@ Function Arguments :
 
 
 Requirements :
-   
+
     Return tuple: (mean, median, mode)
     All values: scalar floats
     Mode = smallest value with highest frequency
