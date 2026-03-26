@@ -8,7 +8,6 @@ Chi-Square Test for Independence:
 
     Test Statistic    :    chi2 = sum((O - E)^2 / E)
 
-
     Expected Frequencies    :    E = rowi * coli / total
 
 
