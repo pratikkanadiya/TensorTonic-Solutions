@@ -16,3 +16,8 @@ Requirements :
     Both values: scalar floats
     Use Bessel correction (divide by n-1)
     Vectorized implementation
+
+Constraints :
+        
+    n ≥ 2 (need at least 2 samples)
+    NumPy only; time limit: 300ms
