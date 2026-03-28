@@ -15,3 +15,16 @@ Sample standard deviation (Bessel correction):
 
     s = sqrt(sum((x - mean) ** 2) / (n - 1))
 
+
+Function Arguments :
+    
+    x: list or array - Sample observations
+    mu0: float - Null hypothesis mean (μ₀)
+
+
+Requirements :
+    
+    Return scalar float (t-statistic)
+    Must convert x to NumPy array
+    Use Bessel correction (n-1 denominator)
+    No external statistics libraries
