@@ -28,3 +28,8 @@ Requirements :
     Must convert x to NumPy array
     Use Bessel correction (n-1 denominator)
     No external statistics libraries
+
+Constraints :
+    
+    len(x) ≥ 2
+    NumPy only; time limit: 300ms
